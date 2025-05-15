@@ -1,22 +1,46 @@
 # se24uari129-DS_Project
-# Banking system 
-  It is a very very very simple Banking system implemented using c
 
-# Inputs
-  # User
-  create an account using few credentials required
-  creating an account enables features like deposit,withdraw wtc.
+## Banking System
 
-  # Employee
-  Employee has restrictions as they are already Hardcoded into the code ): .
-  The credentials are
-      ## 1. id = 17090 , password = Test1234
-      ## 2. id = 17095 , password = MUecole
+It is a very, very, very simple banking system implemented using C.
 
-  These would enable to a seperate menu with more features
+---
 
- # How to Run
-  Requires C compiler like gcc.
-  To run use :- ./bank
-        or
-  compile it first as gcc bank.c -o bank and do the above step
+## Inputs
+
+### User
+
+- Can create an account using a few required credentials.
+- Creating an account enables features like:
+  - Deposit
+  - Withdraw
+  - Check balance
+  - Delete account
+
+### Employee
+
+- Employees have restricted access as their credentials are hardcoded into the code ): .
+- The credentials are:
+
+ 1.ID : 17090
+ Password : Test1234
+
+ 2.ID : 17095
+ Password : MUecole
+
+ - These credentials will enable access to a separate menu with additional features like viewing all accounts.
+
+---
+
+## How to Run
+
+Requires a C compiler like gcc
+To compile and run the program:
+
+bash
+
+gcc bank.c -o bank
+./bank
+
+   or 
+./bank (if already compiled)  
